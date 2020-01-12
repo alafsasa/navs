@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NAV | VOR</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            body{
+                margin: 0;
+                text-align: center;
+            }
+            .vor-nav{
+                display: grid;
+                grid-template-columns: 300px auto 300px;
+                grid-template-rows: minmax(12px, auto);
+                /* grid-gap: 10px; */
+                align-content: center;
+            }
+            .vor-nav >*{
+                background-color: #000;
+            } 
+            .a h3{
+                font-family: Arial, Helvetica, sans-serif;
+                color: #fff;
+                text-align: left;
+                padding: 0 8px;
+                letter-spacing: 5px;
+            }
+            .b{
+                text-align: center;
+            }
+            .b h4 a{
+                color: #fff;
+                text-decoration: none;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                padding: 0 16px;
+                font-weight: lighter;
+            }
+            .b h4 a:hover{
+                /* background-color: yellow; */
+                /* color: yellow; */
+                border-bottom: 4px solid yellow;
+                padding-bottom: 10px;
+                transition: 0.3s;
+            }
+            .c{
+                text-align: right;
+            }
+            .c h4 i{
+                color: #fff;
+                text-decoration: none;
+                padding: 0 16px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="vor-nav">
+            <div class="a">
+                <h3>LUCID</h3>
+            </div>
+            <div class="b">
+                <h4>
+                    <a href="">Home</a>
+                    <a href="">About</a>
+                    <a href="">Inquire</a>
+                    <a href="">Packages</a>
+                    <a href="">Testimonies</a>
+                    <a href="">Contact</a>
+                </h4>
+            </div>
+            <div class="c">
+                <h4>
+                    <i class="fa fa-facebook-official"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-whatsapp"></i>
+                </h4>
+            </div>
+        </div>
+    </body>
+</html>
